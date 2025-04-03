@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Прокат Мототехники | Rush Adrenaline</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1504215680853-026ed2a45def') no-repeat center center/cover;
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      margin-bottom: 20px;
+      color: #007bff;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rush Adrenaline</h1>
+    <p>Прокат мотоциклов и квадроциклов в сердце природы</p>
+  </header>
+
+  <section>
+    <h2>О нас</h2>
+    <p>Мы предоставляем в аренду современные эндуро мотоциклы и квадроциклы для катания по лесу, пескам и бездорожью. У нас три локации проката и опытные инструктора, чтобы ваш отдых был максимально безопасным и захватывающим.</p>
+    <a href="#contact" class="btn">Забронировать прокат</a>
+  </section>
+
+  <section>
+    <h2>Наши услуги</h2>
+    <ul>
+      <li>Прокат эндуро мотоциклов</li>
+      <li>Прокат квадроциклов</li>
+      <li>Индивидуальные и групповые туры</li>
+      <li>Экипировка и обучение</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Преимущества</h2>
+    <ul>
+      <li>Новая техника и регулярное обслуживание</li>
+      <li>Маршруты по лесу, пескам и холмам</li>
+      <li>База отдыха с кафе и зонами релакса</li>
+      <li>Доступные цены и система лояльности</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Фотогалерея</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1600369672062-7f2c9c1c2632" alt="Эндуро мотоцикл">
+      <img src="https://images.unsplash.com/photo-1558980664-10e7170ad1b4" alt="Квадроцикл на маршруте">
+      <img src="https://images.unsplash.com/photo-1523966211575-eb4a29bba60d" alt="Групповая поездка по лесу">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Контакты</h2>
+    <p>Email: rush.adrenaline@example.com</p>
+    <p>Телефон: +380 99 123 45 67</p>
+    <p>Локация: г. Луцк, Украина</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rush Adrenaline. Все права защищены.</p>
+  </footer>
+</body>
+</html>
